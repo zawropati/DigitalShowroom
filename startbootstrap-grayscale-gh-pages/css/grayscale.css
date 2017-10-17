@@ -4,9 +4,17 @@ b/*!
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-grayscale/blob/master/LICENSE)
  */
 .content-section text-center{background-color: #355331;}
+<<<<<<< HEAD
+#contact2{background-color: #bcb2a9;
+     }
+#contact3{background-color: #B9B3B2;}
+#contact{background-color:#cacace;
+align-content:flex-start;}
+=======
 #contact2{background-color: #D4D0CA;}
 #contact3{background-color: #E1E2E6;}
 #contact{background-color:#BEBDBE;}
+>>>>>>> origin/master
 #about{background-color: #B9B3B2;}
 .instagram{background: #fff;
   -webkit-background-size: cover;
@@ -16,6 +24,10 @@ b/*!
 align-items: center;}
 .feed{padding-top: 40px;
 padding-left: 200px;}
+.sheep{width: 80%;}
+#download{
+padding-top: 200px;
+    padding-bottom: 200px;}
 
 @font-face {
     font-family: "Proxima";
@@ -181,9 +193,9 @@ a {
     outline: none;
     background: rgba(255, 255, 255, 0.1); }
 
-.content-section {
+//**.content-section {
   padding-top: 150px;
-  padding-bottom: 150px; }
+  padding-bottom: 150px; }*//
 
 .download-section {
   color: white;
@@ -192,18 +204,17 @@ a {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover; }
+  background-size: cover;
+}
 
 #map {
   width: 100%;
   height: 300px; }
 
 @media (min-width: 992px) {
-  .content-section {
+  //*.content-section {
     padding-top: 200px;
-    padding-bottom: 200px; }
-  #map {
-    height: 350px; } }
+    padding-bottom: 200px; }*//
 
 .btn {
   font-family: "Moon";
