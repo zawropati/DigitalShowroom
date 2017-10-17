@@ -16,15 +16,12 @@ align-content:flex-start;}
 
 #materials1{
     background-color: white;
+    height: 100px;
     display:none;
 }
 
-#button2:hover{
-
-}
-
-#button2:hover .materials1{
-    display:block
+#button1:hover #materials1{
+    display:block;
 }
 
 
