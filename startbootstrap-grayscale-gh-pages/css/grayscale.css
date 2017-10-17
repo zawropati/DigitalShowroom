@@ -68,13 +68,12 @@ a {
   font-family: 'Moon';
   margin-bottom: 0;
   text-transform: uppercase;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   background-color: black; }
   #mainNav .navbar-toggler {
     font-size: 14px;
     padding: 11px;
     color: white;
-    border: 1px solid white; }
+     }
   #mainNav .navbar-brand {
     font-weight: 700; }
   #mainNav a {
@@ -103,7 +102,6 @@ a {
       #mainNav.navbar-shrink {
         padding-top: 10px;
         padding-bottom: 10px;
-        border-bottom: 1px solid rgba(255, 255, 255, 0.3);
         background: #B9B3B2; }
       #mainNav .nav-link.active {
         outline: none;
