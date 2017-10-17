@@ -13,6 +13,22 @@ b/*!
 #contact3{background-color: #E1E2E6;}
 #contact{background-color:#BEBDBE;
 align-content:flex-start;}
+
+#materials1{
+    background-color: white;
+    display:none;
+}
+
+#button2:hover{
+
+}
+
+#button2:hover .materials1{
+    display:block
+}
+
+
+
 >>>>>>> origin/master
 #about{background-color: #B9B3B2;}
 .instagram{background: #fff;
@@ -39,16 +55,18 @@ background-image:url(/startbootstrap-grayscale-gh-pages/img/MEB.JPG)}
     src: url(../fonts/Moon.otf);
 }
 
-#contact{
+#contact, #contact2, #contact3{
     position:relative;
 }
 
 .materialbutton{
     position: absolute;
-right:    5px;
-bottom:   5px;
+    color: white;
+right:    10px;
+bottom:   10px;
 font-family: "Proxima";
-text-transform: uppercase;
+    background: none;
+    border: solid 1px;
 }
 
 
