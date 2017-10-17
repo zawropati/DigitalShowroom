@@ -8,12 +8,11 @@ b/*!
 #contact2{background-color: #bcb2a9;
      }
 #contact3{background-color: #B9B3B2;}
-#contact{background-color:#cacace;
-align-content:flex-start;}
 =======
 #contact2{background-color: #D4D0CA;}
 #contact3{background-color: #E1E2E6;}
-#contact{background-color:#BEBDBE;}
+#contact{background-color:#BEBDBE;
+align-content:flex-start;}
 >>>>>>> origin/master
 #about{background-color: #B9B3B2;}
 .instagram{background: #fff;
