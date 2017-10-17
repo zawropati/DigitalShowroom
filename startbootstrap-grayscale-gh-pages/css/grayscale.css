@@ -8,6 +8,14 @@ b/*!
 #contact3{background-color: #B9B3B2;}
 #contact{background-color:#cacace;}
 #about{background-color: #B9B3B2;}
+.instagram{background: #fff;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+align-items: center;}
+.feed{padding-top: 40px;
+padding-left: 200px;}
 
 @font-face {
     font-family: "Proxima";
@@ -69,7 +77,7 @@ a {
   margin-bottom: 0;
   text-transform: uppercase;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-  background-color: black; }
+  background-color: #B9B3B2; }
   #mainNav .navbar-toggler {
     font-size: 14px;
     padding: 11px;
@@ -164,7 +172,7 @@ a {
 
 .download-section {
   color: white;
-  background: url("../img/downloads-bg.jpg") no-repeat center center scroll;
+  background: url("../img/MEB.JPG") no-repeat center center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -196,7 +204,7 @@ a {
   border: 1px solid #355331;
   background-color: transparent; }
   .btn-default:focus, .btn-default:hover {
-    color: black;
+    color: #B9B3B2;
     border: 1px solid #42DCA3;
     outline: none;
     background-color: #42DCA3; }
