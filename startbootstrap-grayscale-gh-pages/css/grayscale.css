@@ -4,11 +4,17 @@ b/*!
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-grayscale/blob/master/LICENSE)
  */
 .content-section text-center{background-color: #355331;}
+<<<<<<< HEAD
 #contact2{background-color: #bcb2a9;
      }
 #contact3{background-color: #B9B3B2;}
 #contact{background-color:#cacace;
 align-content:flex-start;}
+=======
+#contact2{background-color: #D4D0CA;}
+#contact3{background-color: #E1E2E6;}
+#contact{background-color:#BEBDBE;}
+>>>>>>> origin/master
 #about{background-color: #B9B3B2;}
 .instagram{background: #fff;
   -webkit-background-size: cover;
@@ -82,13 +88,17 @@ a {
   font-family: 'Moon';
   margin-bottom: 0;
   text-transform: uppercase;
+<<<<<<< HEAD
+  background-color: black; }
+=======
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   background-color: #B9B3B2; }
+>>>>>>> origin/master
   #mainNav .navbar-toggler {
     font-size: 14px;
     padding: 11px;
     color: white;
-    border: 1px solid white; }
+     }
   #mainNav .navbar-brand {
     font-weight: 700; }
   #mainNav a {
@@ -117,7 +127,6 @@ a {
       #mainNav.navbar-shrink {
         padding-top: 10px;
         padding-bottom: 10px;
-        border-bottom: 1px solid rgba(255, 255, 255, 0.3);
         background: #B9B3B2; }
       #mainNav .nav-link.active {
         outline: none;
