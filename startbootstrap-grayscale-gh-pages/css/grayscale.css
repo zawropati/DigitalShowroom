@@ -140,12 +140,11 @@ a {
   font-family: 'Moon';
   margin-bottom: 0;
   text-transform: uppercase;
-<<<<<<< HEAD
   background-color: black; }
-=======
+
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   background-color: #B9B3B2; }
->>>>>>> origin/master
+
   #mainNav .navbar-toggler {
     font-size: 14px;
     padding: 11px;
