@@ -13,6 +13,8 @@ b/*!
 #contact{background-color:#BEBDBE;
 align-content:flex-start;}
 
+@media (min-width:992px){
+    .content-section{padding-top:100px;padding-bottom:100px}}
 
 .materials{
     background-color: white;
@@ -128,12 +130,10 @@ h6 {
 color: #FFF; }
 
 p {
-  font-size: 30px;
   line-height: 1.5;
   margin: 0 0 25px; }
   @media (min-width: 768px) {
     p {
-      font-size: 18px;
       line-height: 1.6;
       margin: 0 0 35px; } }
 
