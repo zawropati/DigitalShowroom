@@ -17,13 +17,14 @@ b/*!
 #contact{background-color:#BEBDBE;
 align-content:flex-start;}
 
-#materials1{
+#materials{
     background-color: white;
     height: 100px;
+    display:none;
 }
 
-.fakebtn:hover+.materials{
-    background: blue;
+#fakebutton:hover #materials{
+    display:block;
 }
 
 
