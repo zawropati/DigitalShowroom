@@ -5,7 +5,7 @@ b/*!
  */
 
 .logo{width: 50%;}
-
+.logonorrmade{width: 70%;}
 .content-section text-center{background-color: #355331;}
 #contact2{background-color: #bcb2a9;
      }
@@ -300,12 +300,14 @@ ul.banner-social-buttons {
     ul.banner-social-buttons {
       margin-top: 15px; } }
   @media (max-width: 767px) {
+
     ul.banner-social-buttons li {
       display: block;
       margin-bottom: 20px;
       padding: 0; }
       ul.banner-social-buttons li:last-child {
-        margin-bottom: 0; } }
+        margin-bottom: 0; }
+     }
 
 footer {
   padding: 50px 0;
