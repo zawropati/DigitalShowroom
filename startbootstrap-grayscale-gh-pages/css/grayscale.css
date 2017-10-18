@@ -7,27 +7,37 @@ b/*!
 .logo{width: 50%;}
 
 .content-section text-center{background-color: #355331;}
-<<<<<<< HEAD
 #contact2{background-color: #bcb2a9;
      }
-#contact3{background-color: #B9B3B2;}
-=======
-#contact2{background-color: #D4D0CA;}
 #contact3{background-color:#b5a9a2 ;}
 #contact{background-color:#BEBDBE;
 align-content:flex-start;}
 
-#materials{
+.materials{
     background-color: white;
     height: 100px;
     display:none;
 }
 
-#fakebutton:hover #materials{
+.fakebutton:hover .materials{
     display:block;
 }
 
+.spanmaterial{
+text-transform: capitalize;
+}
 
+#fake1{
+    background-color: #BEBDBE;
+}
+
+#fake2{
+    background-color: #bcb2a9;
+}
+
+#fake3{
+    background-color: #b5a9a2;
+}
 
 >>>>>>> origin/master
 #about{background-color: #B9B3B2;}
