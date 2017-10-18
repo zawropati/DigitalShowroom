@@ -13,6 +13,8 @@ b/*!
 #contact{background-color:#BEBDBE;
 align-content:flex-start;}
 
+@media (min-width:992px){
+    .content-section{padding-top:100px;padding-bottom:100px}}
 
 .materials{
     background-color: white;
@@ -51,6 +53,9 @@ text-transform: uppercase;
 
 }
 
+<<<<<<< HEAD
+=======
+>>>>>>> origin/master
 >>>>>>> origin/master
 #about{background-color: #B9B3B2;}
 .instagram{background: #fff;
@@ -63,14 +68,18 @@ align-items: center;}
 padding-left: 200px;}
 
 .product, .product2, .product3{font-size: 1.5em;}
-.product2{padding-top: 80px;
-padding-right: 80px;}
-.product3{padding-top:50px;}
 
-.title3,{
+.product2{padding-top: 120px;
+padding-right: 100px;}
+
+.product3{padding-top:135px;}
+
+.title3{
 	filter: invert(100%);}
-.sheep{width: 110%;}
-.pilgrim{width: 110%;}
+
+.sheep{width: 100%;}
+.pilgrim{width: 105%;
+padding-left: 40px;}
 .mirror{width: 140%;}
 .sheep, .mirror, .pilgrim{vertical-align: }
 
@@ -130,12 +139,10 @@ h6 {
 color: #FFF; }
 
 p {
-  font-size: 30px;
   line-height: 1.5;
   margin: 0 0 25px; }
   @media (min-width: 768px) {
     p {
-      font-size: 18px;
       line-height: 1.6;
       margin: 0 0 35px; } }
 
@@ -152,7 +159,7 @@ a {
   font-family: 'Moon';
   margin-bottom: 0;
   text-transform: uppercase;
-  background-color: black; }
+  background-color: #b9b3b2; }
 
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   background-color: #B9B3B2; }
