@@ -3,6 +3,9 @@ b/*!
  * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-grayscale/blob/master/LICENSE)
  */
+
+.logo{width: 50%;}
+
 .content-section text-center{background-color: #355331;}
 <<<<<<< HEAD
 #contact2{background-color: #bcb2a9;
@@ -10,7 +13,7 @@ b/*!
 #contact3{background-color: #B9B3B2;}
 =======
 #contact2{background-color: #D4D0CA;}
-#contact3{background-color: #E1E2E6;}
+#contact3{background-color:#b5a9a2 ;}
 #contact{background-color:#BEBDBE;
 align-content:flex-start;}
 
@@ -35,8 +38,14 @@ align-content:flex-start;}
 align-items: center;}
 .feed{padding-top: 40px;
 padding-left: 200px;}
+
+.title3{
+	filter: invert(100%);}
 .sheep{width: 80%;}
-.pilgrim{width: 40%;}
+.pilgrim{width: 70%;}
+.mirror{width: 140%;}
+.sheep, .mirror, .pilgrim{vertical-align: }
+
 #download{
 padding-top: 200px;
     padding-bottom: 200px;
