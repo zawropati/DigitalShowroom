@@ -13,10 +13,11 @@ b/*!
 #contact{background-color:#BEBDBE;
 align-content:flex-start;}
 
+
 .materials{
     background-color: white;
-    height: 100px;
     display:none;
+      margin-top: 10px;
 }
 
 .fakebutton:hover .materials{
@@ -38,6 +39,7 @@ text-transform: capitalize;
 #fake3{
     background-color: #b5a9a2;
 }
+
 
 >>>>>>> origin/master
 #about{background-color: #B9B3B2;}
