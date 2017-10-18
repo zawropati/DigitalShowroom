@@ -17,11 +17,10 @@ align-content:flex-start;}
 #materials1{
     background-color: white;
     height: 100px;
-    display:none;
 }
 
-#button1:hover #materials1{
-    display:block;
+.fakebtn:hover+.materials{
+    background: blue;
 }
 
 
