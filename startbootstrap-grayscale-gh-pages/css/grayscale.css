@@ -52,10 +52,15 @@ align-items: center;}
 .feed{padding-top: 40px;
 padding-left: 200px;}
 
-.title3{
+.product, .product2, .product3{font-size: 1.5em;}
+.product2{padding-top: 80px;
+padding-right: 80px;}
+.product3{padding-top:50px;}
+
+.title3,{
 	filter: invert(100%);}
-.sheep{width: 80%;}
-.pilgrim{width: 70%;}
+.sheep{width: 110%;}
+.pilgrim{width: 110%;}
 .mirror{width: 140%;}
 .sheep, .mirror, .pilgrim{vertical-align: }
 
@@ -115,7 +120,7 @@ h6 {
 color: #FFF; }
 
 p {
-  font-size: 16px;
+  font-size: 30px;
   line-height: 1.5;
   margin: 0 0 25px; }
   @media (min-width: 768px) {
@@ -137,12 +142,11 @@ a {
   font-family: 'Moon';
   margin-bottom: 0;
   text-transform: uppercase;
-<<<<<<< HEAD
   background-color: black; }
-=======
+
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   background-color: #B9B3B2; }
->>>>>>> origin/master
+
   #mainNav .navbar-toggler {
     font-size: 14px;
     padding: 11px;
