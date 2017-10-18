@@ -39,7 +39,7 @@ text-transform: capitalize;
     background-color: #b5a9a2;
 }
 
->>>>>>> origin/master
+
 #about{background-color: #B9B3B2;}
 .instagram{background: #fff;
   -webkit-background-size: cover;
@@ -51,12 +51,15 @@ align-items: center;}
 padding-left: 200px;}
 
 .product, .product2, .product3{font-size: 1.5em;}
+
 .product2{padding-top: 80px;
 padding-right: 80px;}
+
 .product3{padding-top:50px;}
 
-.title3,{
+.title3{
 	filter: invert(100%);}
+
 .sheep{width: 110%;}
 .pilgrim{width: 110%;}
 .mirror{width: 140%;}
