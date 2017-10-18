@@ -24,6 +24,7 @@ align-content:flex-start;}
 
 .fakebutton:hover .materials{
     display:block;
+    width:100%;
 }
 
 .spanmaterial{
@@ -43,6 +44,14 @@ text-transform: uppercase;
     background-color: #b5a9a2;
 }
 
+.videocontainers{
+    width:
+
+}
+.materialpictures{
+    width: 40%;
+
+}
 
 <<<<<<< HEAD
 =======
