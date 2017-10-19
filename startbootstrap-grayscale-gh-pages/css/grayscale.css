@@ -5,7 +5,7 @@ b/*!
  */
 
 .logo{width: 50%;}
-
+.logonorrmade{width: 70%;}
 .content-section text-center{background-color: #355331;}
 #contact2{background-color: #bcb2a9;
      }
@@ -19,8 +19,16 @@ align-content:flex-start;}
 .materials{
     background-color: white;
     display:none;
-      margin-top: 10px;
 }
+
+.fakebutton{
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+}
+.insidematerials{display:inline;}
+
+.videocontainers{display: inline-flex;
+width: auto;}
 
 .fakebutton:hover .materials{
     display:block;
@@ -30,7 +38,8 @@ align-content:flex-start;}
 
 .spanmaterial{
 text-transform: uppercase;
-    margin-left:10px;
+    margin-left: 20px;
+    font-size: 1.5em;
 }
 
 #fake1{
@@ -57,19 +66,16 @@ text-transform: uppercase;
 
 .materialpictures{
     width: 40%;
-    float: left;
+    float: right;}
 
+.sheepmat1{width: 100%;
 }
-
+.sheepmat2{width:100%;}
 .thevideo{
 min-width: 100%; min-height: 100%;
 width: auto; height: auto;
 }
 
-<<<<<<< HEAD
-=======
->>>>>>> origin/master
->>>>>>> origin/master
 #about{background-color: #B9B3B2;}
 .instagram{background: #fff;
   -webkit-background-size: cover;
@@ -82,10 +88,19 @@ padding-left: 200px;}
 
 .product, .product2, .product3{font-size: 1.5em;}
 
-.product2{padding-top: 120px;
-padding-right: 100px;}
+
+.product2{padding-top:120px;
+padding-right:70px;}
 
 .product3{padding-top:135px;}
+
+
+@media (max-width:599px){
+        .product, .product2, .product3{font-size: 1em; padding:0}
+    h2{padding-top: 10px;}
+    }
+
+.textmat{color:black;}
 
 .title3{
 	filter: invert(100%);}
@@ -97,9 +112,11 @@ padding-left: 40px;}
 .sheep, .mirror, .pilgrim{vertical-align: }
 
 #download{
+    background-size: cover;
 padding-top: 200px;
     padding-bottom: 200px;
-background-image:url(/startbootstrap-grayscale-gh-pages/img/MEB.JPG)}
+background-image:url(/startbootstrap-grayscale-gh-pages/img/MEB.JPG);
+}
 
 @font-face {
     font-family: "Proxima";
@@ -111,9 +128,6 @@ background-image:url(/startbootstrap-grayscale-gh-pages/img/MEB.JPG)}
     src: url(../fonts/Moon.otf);
 }
 
-#contact, #contact2, #contact3{
-    position:relative;
-}
 
 .materialbutton{
     position: absolute;
@@ -151,11 +165,9 @@ h6 {
   text-transform: uppercase;
 color: #FFF; }
 
-p {
-  line-height: 1.5;
-  margin: 0 0 25px; }
+
   @media (min-width: 768px) {
-    p {
+    p {font-size:1.5em;
       line-height: 1.6;
       margin: 0 0 35px; } }
 
@@ -221,10 +233,8 @@ a {
   display: table;
   width: 100%;
   height: auto;
-  padding: 200px 0;
   text-align: center;
   color:  #355331;
-  background: url("../img/wood.jpg") no-repeat bottom center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -238,6 +248,7 @@ a {
     .masthead .intro-body .intro-text {
       font-size: 18px; }
   @media (min-width: 768px) {
+
     .masthead {
       height: 100%;
       padding: 0; }
@@ -312,12 +323,14 @@ ul.banner-social-buttons {
     ul.banner-social-buttons {
       margin-top: 15px; } }
   @media (max-width: 767px) {
+
     ul.banner-social-buttons li {
       display: block;
       margin-bottom: 20px;
       padding: 0; }
       ul.banner-social-buttons li:last-child {
-        margin-bottom: 0; } }
+        margin-bottom: 0; }
+     }
 
 footer {
   padding: 50px 0;
@@ -344,3 +357,5 @@ img::-moz-selection {
 
 body {
   -webkit-tap-highlight-color: rgba(255, 255, 255, 0.2); }
+
+
