@@ -137,9 +137,15 @@ padding-right:70px;}
     h2{padding-top: 10px;}
     .feed{padding-top: 40px;
         width: 599px;
-        padding-left: 0;
+        padding-left: 0;}
+    .logonorrmade{
+        display: none;
     }
-}
+    p{
+        padding-top: 80px;
+    }
+
+    }
 .ul2{
     padding:0;
 }
