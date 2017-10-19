@@ -24,6 +24,17 @@ li{list-style-type: none;}
 .materials{
     background-color: white;
     display:none;
+
+    margin-bottom: 0px;
+
+}
+.insidematerials{display:inline;}
+
+.videocontainers{display: inline-flex;
+width: auto;}
+
+.fakebutton{
+    padding-bottom: 10px;
     margin-bottom: 0px;
 }
 .insidematerials{display:inline;}
@@ -39,7 +50,8 @@ width: auto;}
 
 .spanmaterial{
 text-transform: uppercase;
-    margin-left:10px;
+    margin-left: 20px;
+    font-size: 1.5em;
 }
 
 #fake1{
@@ -58,6 +70,18 @@ text-transform: uppercase;
     width:50%;
 
 }
+
+
+.picturecontainers{
+    width:50%;
+    float: left;
+}
+
+.materialpictures{
+    width: 40%;
+    float: right;}
+
+
 .sheepmat1{width: 100%;
 }
 .sheepmat2{width:100%;}
@@ -66,10 +90,6 @@ min-width: 100%; min-height: 100%;
 width: auto; height: auto;
 }
 
-<<<<<<< HEAD
-=======
->>>>>>> origin/master
->>>>>>> origin/master
 #about{background-color: #B9B3B2;}
 .instagram{background: #fff;
   -webkit-background-size: cover;
@@ -82,11 +102,24 @@ padding-left: 200px;}
 
 .product, .product2, .product3{font-size: 1.5em;}
 
-.product2{padding-top: 120px;
-padding-right: 100px;}
+
+.product2{padding-top:120px;
+padding-right:70px;}
 
 .product3{padding-top:135px;}
+
+
+
+@media (max-width:599px){
+        .product, .product2, .product3{font-size: 1em; padding:0}
+    h2{padding-top: 10px;}
+    }
+
 .textmat{color:black;}
+
+
+.textmat{color:black;}
+
 .title3{
 	filter: invert(100%);}
 
@@ -113,9 +146,6 @@ background-image:url(/startbootstrap-grayscale-gh-pages/img/MEB.JPG);
     src: url(../fonts/Moon.otf);
 }
 
-#contact, #contact2, #contact3{
-    position:relative;
-}
 
 .materialbutton{
     position: absolute;
@@ -221,10 +251,8 @@ a {
   display: table;
   width: 100%;
   height: auto;
-  padding: 200px 0;
   text-align: center;
   color:  #355331;
-  background: url("../img/wood.jpg") no-repeat bottom center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -347,3 +375,5 @@ img::-moz-selection {
 
 body {
   -webkit-tap-highlight-color: rgba(255, 255, 255, 0.2); }
+
+
