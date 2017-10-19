@@ -19,7 +19,15 @@ align-content:flex-start;}
 .materials{
     background-color: white;
     display:none;
+<<<<<<< HEAD
+=======
+    margin-bottom: 0px;
+>>>>>>> origin/master
 }
+.insidematerials{display:inline;}
+
+.videocontainers{display: inline-flex;
+width: auto;}
 
 .fakebutton{
     padding-bottom: 10px;
@@ -58,6 +66,7 @@ text-transform: uppercase;
     width:50%;
 
 }
+<<<<<<< HEAD
 
 .picturecontainers{
     width:50%;
@@ -68,6 +77,8 @@ text-transform: uppercase;
     width: 40%;
     float: right;}
 
+=======
+>>>>>>> origin/master
 .sheepmat1{width: 100%;
 }
 .sheepmat2{width:100%;}
@@ -93,6 +104,7 @@ padding-left: 200px;}
 padding-right:70px;}
 
 .product3{padding-top:135px;}
+<<<<<<< HEAD
 
 
 @media (max-width:599px){
@@ -102,6 +114,9 @@ padding-right:70px;}
 
 .textmat{color:black;}
 
+=======
+.textmat{color:black;}
+>>>>>>> origin/master
 .title3{
 	filter: invert(100%);}
 
