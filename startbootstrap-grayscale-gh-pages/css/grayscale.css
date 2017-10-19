@@ -19,8 +19,12 @@ align-content:flex-start;}
 .materials{
     background-color: white;
     display:none;
-      margin-top: 10px;
+    margin-bottom: 0px;
 }
+.insidematerials{display:inline;}
+
+.videocontainers{display: inline-flex;
+width: auto;}
 
 .fakebutton:hover .materials{
     display:block;
@@ -49,18 +53,9 @@ text-transform: uppercase;
     width:50%;
 
 }
-
-.picturecontainers{
-    width:50%;
-    float: left;
+.sheepmat1{width: 100%;
 }
-
-.materialpictures{
-    width: 40%;
-    float: left;
-
-}
-
+.sheepmat2{width:100%;}
 .thevideo{
 min-width: 100%; min-height: 100%;
 width: auto; height: auto;
@@ -86,7 +81,7 @@ padding-left: 200px;}
 padding-right: 100px;}
 
 .product3{padding-top:135px;}
-
+.textmat{color:black;}
 .title3{
 	filter: invert(100%);}
 
