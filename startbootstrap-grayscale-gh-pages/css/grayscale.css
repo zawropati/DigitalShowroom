@@ -5,7 +5,7 @@ b/*!
  */
 
 .logo{width: 50%;}
-.logonorrmade{width: 70%;}
+.logonorrmade{width: 50%;}
 .content-section text-center{background-color: #355331;}
 #contact2{background-color: #bcb2a9;
      }
@@ -111,11 +111,17 @@ padding-right:70px;}
 .product3{padding-top:135px;}
 
 
-
 @media (max-width:599px){
         .product, .product2, .product3{font-size: 1em; padding:0}
     h2{padding-top: 10px;}
+    .feed{padding-top: 40px;
+        width: 599px;
+        padding-left: 0;
     }
+}
+.ul2{
+    padding:0;
+}
 
 .textmat{color:black;}
 
