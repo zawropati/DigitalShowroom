@@ -25,6 +25,7 @@ align-content:flex-start;}
 .fakebutton:hover .materials{
     display:block;
     width:100%;
+    overflow: hidden;
 }
 
 .spanmaterial{
@@ -45,12 +46,24 @@ text-transform: uppercase;
 }
 
 .videocontainers{
-    width:
+    width:50%;
 
 }
+
+.picturecontainers{
+    width:50%;
+    float: left;
+}
+
 .materialpictures{
     width: 40%;
+    float: left;
 
+}
+
+.thevideo{
+min-width: 100%; min-height: 100%;
+width: auto; height: auto;
 }
 
 <<<<<<< HEAD
