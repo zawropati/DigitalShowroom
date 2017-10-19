@@ -13,6 +13,11 @@ b/*!
 #contact{background-color:#BEBDBE;
 align-content:flex-start;}
 
+ul{text-decoration: none;}
+li{list-style-type: none;}
+.ul1{padding-right: 40px;}
+.ul2{padding-right: 140px;}
+
 @media (min-width:992px){
     .content-section{padding-top:100px;padding-bottom:100px}}
 
